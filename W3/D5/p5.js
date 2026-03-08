@@ -1,5 +1,5 @@
-const startBtn = document.getElementById("startBtn");
-const removeBtn = document.getElementById("removeBtn"); 
+const startBtn=document.getElementById("startBtn");
+const removeBtn=document.getElementById("removeBtn"); 
 
 function handleClick() {
     console.log("startBtn clicked");
