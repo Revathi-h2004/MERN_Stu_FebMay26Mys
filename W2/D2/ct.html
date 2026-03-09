@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <div class="bg-blue-500 text-white p-4 shadow">
+        <h1 class="text-2xl font-bold">H C Revathi</h1>
+        <div class="mt-2">
+            <a href="#home" class="mr-4 hover:text-gray-200">Home</a>
+            <a href="#about" class="mr-4 hover:text-gray-200">About</a>
+            <a href="#skills" class="mr-4 hover:text-gray-200">Skills</a>
+            <a href="#projects" class="mr-4 hover:text-gray-200">Projects</a>
+            <a href="#contact" class="hover:text-gray-200">Contact</a>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <div id="home" class="text-center p-10 bg-pink-200">
+        <h2 class="text-4xl font-bold">H C Revathi</h2>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXu8bPyJxnY5GP5kAaoFZdb5Ohs4BdZDzlLQ&s"
+             class="w-32 h-32 mx-auto rounded-full mt-4 border-4 border-gray-600">
+
+        <p class="mt-4 font-semibold">Software Developer</p>
+        <p class="font-semibold">MERN Stack | DevOps</p>
+
+        <a href="#contact"
+           class="inline-block mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+            Contact Me
+        </a>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="p-8 m-6 rounded shadow bg-yellow-200">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p>
+            I am a Full Stack Developer.
+            Experienced in web development and hosting.
+            Specialized in Finance domain projects.
+        </p>
+        <p class="mt-2 font-semibold">Backend: NodeJS</p>
+        <p class="font-semibold">Database: Optimization</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="p-8 m-6 rounded shadow bg-green-200">
+        <h2 class="text-2xl font-bold mb-4">My Skills</h2>
+        <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">MERN Stack</h3>
+            <p>ReactJS, NodeJS, ExpressJS</p>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="p-8 m-6 rounded shadow bg-orange-200">
+        <h2 class="text-2xl font-bold mb-4">My Projects</h2>
+
+        <h3 class="font-semibold">Gola</h3>
+        <p>Rapid way to book a cab hassle free</p>
+
+        <a href="https://www.gola.com/" target="_blank"
+           class="text-white bg-blue-500 px-3 py-1 rounded hover:bg-blue-600">
+            View Project
+        </a>
+
+        <table class="mt-6 border w-full text-left bg-white">
+            <tr class="bg-gray-200">
+                <th class="border p-2">Project</th>
+                <th class="border p-2">Technology</th>
+                <th class="border p-2">Technology</th>
+            </tr>
+            <tr class="border">
+                <td class="border p-2">AWS Hosting</td>
+                <td class="border p-2">MERN</td>
+                <td class="border p-2">Redis</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="p-8 m-6 rounded shadow bg-purple-200">
+        <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+
+        <form>
+            <label>Name</label><br>
+            <input type="text" class="border-2 border-gray-400 p-2 w-full mb-4 rounded"><br>
+
+            <label>Email</label><br>
+            <input type="email" class="border-2 border-gray-400 p-2 w-full mb-4 rounded"><br>
+
+            <label>Employment Type</label><br>
+            <select class="border-2 border-gray-400 p-2 w-full mb-4 rounded">
+                <option>FTE</option>
+                <option>Consultant</option>
+            </select><br>
+
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Send
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
