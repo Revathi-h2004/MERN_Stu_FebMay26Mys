@@ -2,6 +2,7 @@
 const signupForm = document.getElementById("signupForm");
 const signupEmail = document.getElementById("signupEmail");
 const signupPassword = document.getElementById("signupPassword");
+const confirmPassword = document.getElementById("confirmPassword"); 
 const message = document.getElementById("message");
 
 signupForm.addEventListener("submit",function(event){
@@ -68,6 +69,7 @@ signupForm.addEventListener("submit",function(event){
     message.textContent = "Valid email & password entered";
     message.style.color = "green";
     console.log("Success!",{email,password:"***Hidden***"});
+    
 });
 
 //clear message on input
