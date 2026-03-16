@@ -1,5 +1,5 @@
 set -e
-mkdir -p node-learning-project
+mkdir -p Node-learning-project
 cd node-learning-project
 npm init -y
 echo "Project created in $(pwd)"
