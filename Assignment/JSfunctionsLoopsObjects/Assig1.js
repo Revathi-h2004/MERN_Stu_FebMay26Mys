@@ -1,4 +1,3 @@
-
 // Password Strength Tagger
 
 function tagPassword(password) {
