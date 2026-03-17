@@ -3,6 +3,6 @@ const items = {
     item2: "server",
     item3: "cloudAPI"
 };
-for(const [items,itemName] of Object.entries(items)){
+for(const [items,itemName] of object.entries(items)){
     console.log(`${items}:${itemName}`);
 }
